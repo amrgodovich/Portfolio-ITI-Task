@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Amr Essam - Portfolio</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+  <style>
+    body {
+      background-color: #f8f9fa;
+    }
+    header {
+      background: linear-gradient(135deg, #212529, #343a40);
+    }
+    .profile-pic {
+      width: 180px;
+      height: 180px;
+      object-fit: cover;
+      border: 5px solid white;
+      box-shadow: 0px 4px 10px rgba(0,0,0,0.3);
+    }
+    .skills .badge {
+      margin: 5px;
+      font-size: 1rem;
+      padding: 0.6em 1em;
+    }
+    .card {
+      border-radius: 12px;
+      transition: transform 0.2s ease-in-out;
+    }
+    .card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0px 6px 15px rgba(0,0,0,0.15);
+    }
+    footer {
+      background: #212529;
+    }
+  </style>
+</head>
+<body>
+
+  <header class="text-white text-center py-5">
+    <h1 class="fw-bold">Amr Essam</h1>
+    <p class="lead">Computer Engineer | Data Science & Python Development</p>
+  </header>
+
+  <section class="text-center my-4">
+    <img src="assets/amr.jpg" class="rounded-circle profile-pic" alt="Profile Image">
+  </section>
+
+  <section class="container my-4">
+    <div class="card p-4 shadow-sm">
+      <h2 class="text-center mb-3">Contact Information</h2>
+      <p><i class="bi bi-envelope-fill text-primary"></i> 
+        <a href="mailto:amressamiti@gmail.com" class="text-decoration-none">amressamiti@gmail.com</a>
+      </p>
+      <p><i class="bi bi-telephone-fill text-success"></i> +20 10 2347 4124</p>
+      <p><i class="bi bi-geo-alt-fill text-danger"></i> Cairo, Egypt</p>
+    </div>
+  </section>
+
+  <section class="container my-5">
+    <div class="card p-4 shadow-sm">
+      <h2 class="text-center mb-3">About Me</h2>
+      <p class="text-center">
+        Driven and responsible fresh graduate engineer, passionate about AI, machine learning, and real-world applications. 
+        Eager to apply knowledge in solving practical challenges.
+      </p>
+    </div>
+  </section>
+
+  <section class="container my-5">
+    <div class="card p-4 shadow-sm">
+      <h2 class="text-center mb-3">Skills</h2>
+      <div class="d-flex flex-wrap justify-content-center skills">
+        <span class="badge bg-primary">Python</span>
+        <span class="badge bg-success">Machine Learning</span>
+        <span class="badge bg-info text-dark">SQL</span>
+        <span class="badge bg-warning text-dark">HTML & CSS</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="container my-5">
+    <div class="card p-4 shadow-sm">
+      <h2 class="text-center mb-3">Projects</h2>
+      <div class="row">
+        <div class="col-md-6">
+          <div class="card mb-3">
+            <div class="card-body">
+              <h5 class="card-title">📊 Sentiment Analysis App</h5>
+              <p class="card-text">Built a web app using Flask and ML models to analyze customer sentiments from Twitter data.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="card mb-3">
+            <div class="card-body">
+              <h5 class="card-title">🚗 Self-driving Steering Prediction</h5>
+              <p class="card-text">Developed a CNN model to predict steering angles from video frames in real time.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="container my-5">
+    <div class="card p-4 shadow-sm">
+      <h2 class="text-center mb-3">Achievements & Certifications</h2>
+      <ul class="list-group">
+        <li class="list-group-item"><i class="bi bi-award-fill text-warning"></i> IBM - Introduction to Deep Learning & NNs with Keras</li>
+        <li class="list-group-item"><i class="bi bi-award-fill text-warning"></i> IBM - Machine Learning with Python</li>
+        <li class="list-group-item"><i class="bi bi-award-fill text-warning"></i> Machine Learning with Tree-Based Models in Python</li>
+      </ul>
+    </div>
+  </section>
+
+  <footer class="text-white text-center py-3 mt-5">
+    <p>&copy; 2025 Amr Essam Goda | Portfolio</p>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
